@@ -1,7 +1,14 @@
+## Outage filter prototype
+
+This is a prototype application in using Confluent KSQL to demo event enrichment and filtering for Smartmeter outage event filter app.
+
+
+
 ## Prerequisites
 
 * Unix like system
 * kafkacat installed -  sudo apt-get install kafkacat
+* Running Confluent Kafka broker cluster  and Kafka KSQL server
 * ksql cli - get it from https://www.confluent.io/product/ksql/
 * clone this repo to a working folder e.g `~/workspace/outage-filter-ksql`
 
