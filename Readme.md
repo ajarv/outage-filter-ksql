@@ -3,6 +3,8 @@
 * Unix like system
 * kafkacat installed -  sudo apt-get install kafkacat
 * ksql cli - get it from https://www.confluent.io/product/ksql/
+* clone this repo to a working folder e.g `~/workspace/outage-filter-ksql`
+
 ## Send Few  events 
 
 ```bash
