@@ -1,0 +1,5 @@
+e9100000|{"meterESN": "e9100000", "transformerId": "t-001","eventType":"JOIN"}
+e9100001|{"meterESN": "e9100001", "transformerId": "t-001","eventType":"JOIN"}
+e9100002|{"meterESN": "e9100002", "transformerId": "t-002","eventType":"JOIN"}
+e9100003|{"meterESN": "e9100003", "transformerId": "t-002","eventType":"JOIN"}
+e9100004|{"meterESN": "e9100004", "transformerId": "t-002","eventType":"JOIN"}

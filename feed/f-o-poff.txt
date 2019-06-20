@@ -1,0 +1,5 @@
+e9100000|{"meterESN": "e9100000", "eventType": "POWEROFF","seqNo": 1}
+e9100001|{"meterESN": "e9100001", "eventType": "POWEROFF","seqNo": 2}
+e9100002|{"meterESN": "e9100002", "eventType": "POWEROFF","seqNo": 3}
+e9100003|{"meterESN": "e9100003", "eventType": "POWEROFF","seqNo": 4}
+e9100004|{"meterESN": "e9100004", "eventType": "POWEROFF","seqNo": 5}
