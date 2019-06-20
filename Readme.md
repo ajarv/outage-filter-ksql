@@ -9,8 +9,11 @@
 BROKER_URL='aplmuled002:29092' 
 KSQL_URL='http://aplmuled002:2092'
 
-echo 'e9100000| {"seqNo": 1, "meterESN": "e9100000", "eventType": "POWERON"}' |kafkacat -b ${BROKER_URL} -t sm_event -P -K"|"  
-echo 'e9100000|{"meterESN": "e9100000", "transformerId": "t-001","eventType":"JOIN"}' | kafkacat -b ${BROKER_URL} -t registerEvent -P -K"|"  
+
+echo 'e9100000| {"seqNo": 1, "meterESN": "e9100000", "eventType": "POWERON"}' | \
+    kafkacat -b ${BROKER_URL} -t sm_event -P -K"|"  
+echo 'e9100000|{"meterESN": "e9100000", "transformerId": "t-001","eventType":"JOIN"}' | \
+    kafkacat -b ${BROKER_URL} -t registerEvent -P -K"|"  
 
 ```
 
@@ -22,7 +25,7 @@ kafkacat -b ${BROKER_URL} -t sm_event -C  -c 1
 
 ```
 
-## send multiple events
+## send multiple events from input file
 
 ```bash
 #multiple reg
