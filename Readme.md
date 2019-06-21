@@ -2,8 +2,8 @@
 
 This is a prototype application in using Confluent KSQL to demo event enrichment and filtering for Smartmeter outage event filter app.
 
-
-
+<img src="img/outage.PNG" style="width:100%" />
+ 
 ## Prerequisites
 
 * Unix like system
